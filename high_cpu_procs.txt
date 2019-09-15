@@ -1,0 +1,8 @@
+      6       2 plan9 --control-socket 7 --  0.0  0.0
+ 137205  137204 ps -eo pid,ppid,cmd,%mem,%c  0.0  0.0
+ 137206  137204 awk -v th=0 NR>1 && $5 > th  0.0  0.0
+    199       1 /usr/bin/python3 /usr/share  0.2  0.0
+    357       1 /usr/lib/systemd/systemd --  0.1  0.0
+   6317       1 /usr/lib/polkit-1/polkitd -  0.1  0.0
+    454     324 /home/satya/.vscode-server/  0.9  0.1
+    504     324 /home/satya/.vscode-server/  1.5  0.9
